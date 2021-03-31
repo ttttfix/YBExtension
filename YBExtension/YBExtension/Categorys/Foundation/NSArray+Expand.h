@@ -18,14 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (T _Nullable)yb_find:(BOOL (^)(T element))block;
 
+- (instancetype)sortedUsingSelector:(SEL)selector;
 
 @end
 
 
 @interface NSArray (Judge)
-
-/// 判断数组是否为空
-- (BOOL)isSome;
 
 
 @end

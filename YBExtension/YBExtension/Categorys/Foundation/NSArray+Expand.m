@@ -6,6 +6,7 @@
 //
 
 #import "NSArray+Expand.h"
+#import "NSObject+Judge.h"
 
 @implementation NSArray (Expand)
 
@@ -34,13 +35,19 @@
     return nil;
 }
 
+- (instancetype)sortedUsingSelector:(SEL)selector {
+    if ([self.class isSubclassOfClass:NSMutableArray.class]) {
+        NSMutableArray *me = (id)self;
+        [me sortUsingSelector:selector];
+        return me;
+    }
+    return [self sortedArrayUsingSelector:selector];
+}
+
 @end
 
 
 @implementation NSArray (Judge)
 
-- (BOOL)isSome {
-    return (self && self.count >0) ? YES : NO;
-}
 
 @end

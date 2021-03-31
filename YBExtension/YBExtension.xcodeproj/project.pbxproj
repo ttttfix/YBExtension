@@ -15,6 +15,9 @@
 		6C620BA325A87CE80012D3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C620BA125A87CE80012D3C1 /* LaunchScreen.storyboard */; };
 		6C620BA625A87CE80012D3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C620BA525A87CE80012D3C1 /* main.m */; };
 		6C620BB225A87DB70012D3C1 /* NSArray+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C620BB125A87DB70012D3C1 /* NSArray+Expand.m */; };
+		6C620BB725A94BD10012D3C1 /* NSString+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C620BB625A94BD10012D3C1 /* NSString+Expand.m */; };
+		6C620BBB25A9534B0012D3C1 /* NSObject+Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C620BBA25A9534B0012D3C1 /* NSObject+Judge.m */; };
+		6C620BBF25A95E210012D3C1 /* TestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C620BBE25A95E210012D3C1 /* TestProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		6C620BA525A87CE80012D3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C620BB025A87DB70012D3C1 /* NSArray+Expand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Expand.h"; sourceTree = "<group>"; };
 		6C620BB125A87DB70012D3C1 /* NSArray+Expand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Expand.m"; sourceTree = "<group>"; };
+		6C620BB525A94BD10012D3C1 /* NSString+Expand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Expand.h"; sourceTree = "<group>"; };
+		6C620BB625A94BD10012D3C1 /* NSString+Expand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expand.m"; sourceTree = "<group>"; };
+		6C620BB925A9534B0012D3C1 /* NSObject+Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Judge.h"; sourceTree = "<group>"; };
+		6C620BBA25A9534B0012D3C1 /* NSObject+Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Judge.m"; sourceTree = "<group>"; };
+		6C620BBD25A95E210012D3C1 /* TestProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProxy.h; sourceTree = "<group>"; };
+		6C620BBE25A95E210012D3C1 /* TestProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,8 @@
 				6C620B9725A87CE50012D3C1 /* SceneDelegate.m */,
 				6C620B9925A87CE50012D3C1 /* ViewController.h */,
 				6C620B9A25A87CE50012D3C1 /* ViewController.m */,
+				6C620BBD25A95E210012D3C1 /* TestProxy.h */,
+				6C620BBE25A95E210012D3C1 /* TestProxy.m */,
 				6C620BAD25A87D020012D3C1 /* Categorys */,
 				6C620B9C25A87CE50012D3C1 /* Main.storyboard */,
 				6C620B9F25A87CE80012D3C1 /* Assets.xcassets */,
@@ -94,6 +105,10 @@
 			children = (
 				6C620BB025A87DB70012D3C1 /* NSArray+Expand.h */,
 				6C620BB125A87DB70012D3C1 /* NSArray+Expand.m */,
+				6C620BB525A94BD10012D3C1 /* NSString+Expand.h */,
+				6C620BB625A94BD10012D3C1 /* NSString+Expand.m */,
+				6C620BB925A9534B0012D3C1 /* NSObject+Judge.h */,
+				6C620BBA25A9534B0012D3C1 /* NSObject+Judge.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -174,11 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C620BBF25A95E210012D3C1 /* TestProxy.m in Sources */,
+				6C620BBB25A9534B0012D3C1 /* NSObject+Judge.m in Sources */,
 				6C620B9B25A87CE50012D3C1 /* ViewController.m in Sources */,
 				6C620B9525A87CE50012D3C1 /* AppDelegate.m in Sources */,
 				6C620BA625A87CE80012D3C1 /* main.m in Sources */,
 				6C620BB225A87DB70012D3C1 /* NSArray+Expand.m in Sources */,
 				6C620B9825A87CE50012D3C1 /* SceneDelegate.m in Sources */,
+				6C620BB725A94BD10012D3C1 /* NSString+Expand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
